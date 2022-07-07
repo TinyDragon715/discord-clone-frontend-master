@@ -1,0 +1,54 @@
+{
+  "name": "discord-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "12.6.2",
+    "@types/react": "16.8.23",
+    "@types/react-dom": "16.8.4",
+    "axios": "^0.19.0",
+    "normalize.css": "^8.0.1",
+    "pusher": "^5.1.1-beta",
+    "pusher-js": "^7.1.1-beta",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-mic": "^12.4.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.4",
+    "redux-persist": "^5.10.0",
+    "socket.io-client": "^2.2.0",
+    "styled-components": "^4.3.2",
+    "typescript": "3.5.3",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react-router-dom": "^4.3.4",
+    "@types/redux": "^3.6.0",
+    "@types/socket.io-client": "^1.4.32",
+    "@types/styled-components": "^4.1.18",
+    "@types/yup": "^0.26.21"
+  }
+}
