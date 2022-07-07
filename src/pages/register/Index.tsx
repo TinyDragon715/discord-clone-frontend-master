@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link as RedirectLink } from "react-router-dom";
 import * as S from "./Styles";
 import Label from "../../components/label/Index";
@@ -17,12 +17,6 @@ export default function Register({ history }): JSX.Element {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-
-  useEffect(() => {
-    if(localStorage.getItem('isLoggedIn') != 'true') {
-      history.push('/login')
-    }
-  }, [])
 
   const register = (event) => {
     event.preventDefault();
